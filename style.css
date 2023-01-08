@@ -104,6 +104,28 @@ header .container img{
 
     
 }
+.social-links img{
+    height: 24px;
+}
+.social-links li{
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+#contact .container{
+    display: block;
+    
+}
+form input,textarea,form button{
+   display: block;
+    margin: 8px;
+    width: 320px;
+    background-color: aqua;
+    color: antiquewhite;
+    
+}
+
 footer{
     margin-top: 8px;
     background-color: rgb(20, 20, 20);
