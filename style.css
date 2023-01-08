@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(171, 204, 233);
+    background: linear-gradient(45deg,rgb(12, 12, 12),rgb(88, 84, 88)) no-repeat;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+p{
+    text-align: center;
+    color: rgb(171, 226, 21);
+    padding: 5px;
+    margin-left: 5px;
+    font-family: 'Rowdies', cursive;
+}
+header{
+    background:linear-gradient(95deg,rgb(20, 20, 20),rgb(141, 141, 141));
+    padding: 15px 0;
+}
+header h1{
+     font-family: 'Roboto Mono', monospace;;
+    color: aqua;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 15px;
+    font-size: 25px;
+    
+}
+header ul li a {
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+header  ul li a:hover{
+    color: aqua;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header .container, section .container{
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+header .container img{
+    width: 50px;
+    
+}
+
+
+
+
+
+#sobre .container h1 {
+    color: aqua;
+    padding: 8px;
+    font-size: 25px;
+    margin-left: 16px;
+
+}
+#sobre  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 15px;
+    border-style: solid;
+    border-color: aqua;
+    margin-bottom: 15px;
+    
+    
+    
+}
+#sobre img:hover{
+
+    border-radius: 15% 15%;
+
+
+}
+#sobre video {
+    height: 250px;
+    width: 250px;
+    border-color:aqua;
+    border-radius: 50%;
+    border-style:solid;
+    margin: 8px;
+    
+
+
+    
+}
+#sobre video:hover{
+   
+    
+   border-radius: 15% 15%;
+
+    
+}
+footer{
+    margin-top: 8px;
+    background-color: rgb(20, 20, 20);
+}
+
+
